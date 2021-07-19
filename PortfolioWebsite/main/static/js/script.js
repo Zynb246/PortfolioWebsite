@@ -6,7 +6,6 @@ window.addEventListener('scroll', function() {
 function toggleMenu() {
     var menuToggle = document.querySelector('.toggle')
     var menu = document.querySelector('.menu')
-    menuToggl.classList.toggle('active');
+    menuToggle.classList.toggle('active');
     menu.classList.toggle('active');
-
 }
